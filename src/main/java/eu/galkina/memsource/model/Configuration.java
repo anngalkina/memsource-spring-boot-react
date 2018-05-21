@@ -6,6 +6,10 @@ import javax.persistence.Id;
 
 import lombok.Data;
 
+/**
+ * @author Anna Galkina
+ * Memsource user configuration
+ */
 @Data
 @Entity
 public class Configuration {

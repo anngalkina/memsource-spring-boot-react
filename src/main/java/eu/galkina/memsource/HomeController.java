@@ -1,9 +1,13 @@
 package eu.galkina.memsource;
 
-import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+/**
+ * @author Anna Galkina
+ *
+ * Home page controller
+ */
 @Controller
 public class HomeController {
 
