@@ -133,6 +133,9 @@ class ProjectList extends React.Component{
 		const thHeader = projects.length ? (
                 <tr>
                     <th>Name</th>
+                    <th>Status</th>
+                    <th>Source Language</th>
+                    <th>Target Languages</th>
                 </tr>
             ) : (
                 <tr></tr>
@@ -156,9 +159,15 @@ class ProjectList extends React.Component{
 // tag::project[]
 class Project extends React.Component{
 	render() {
+	    var targetLangs = this.props.project.targetLangs
+            ? this.props.project.targetLangs.join(",")
+            : "";
 		return (
 			<tr>
 				<td>{this.props.project.name}</td>
+                <td>{this.props.project.status}</td>
+                <td>{this.props.project.sourceLang}</td>
+                <td>{targetLangs}</td>
 			</tr>
 		)
 	}
