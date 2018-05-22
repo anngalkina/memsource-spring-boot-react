@@ -107,10 +107,10 @@ class ConfigurationDialog extends React.Component{
                         <h2>Set up configuration</h2>
                         <form>
                             <p key="username">
-                                <input type="text" placeholder="username" ref="username" className="field" />
+                                <input type="text" placeholder="username" ref="username" size="50" />
                             </p>
                             <p key="password">
-                                <input type="password"  placeholder="password" ref="password" className="field" />
+                                <input type="password"  placeholder="password" ref="password" size="50" />
                             </p>
 
                             <button onClick={this.handleSubmit}>Submit</button>
