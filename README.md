@@ -21,7 +21,7 @@ Memsource account can be configured here.
 ## Running instructions
 
 * Maven is needed to run the application.
-* Start up the app using (`mvn spring-boot:run`).
+* Start up the app using `mvn spring-boot:run`.
 * Open up a tab and navigate to http://localhost:8080.
 
 ## Used technologies
